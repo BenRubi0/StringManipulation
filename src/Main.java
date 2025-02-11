@@ -21,20 +21,18 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        /*
         String testText = "The quick brown fox jumped over the lazy dog."; // creates the string we're going to use to test the program
 
         int amountOfWordsInText = getWordsInText(testText); // gets the amount of words in the test text
 
         System.out.println("There is " + amountOfWordsInText + " words in the text: " + testText); // tells the user the amount of words in the testText string
-        */
 
-        System.out.println("Type in a sentence: ");
+        System.out.println("\nType in a sentence: ");
 
         Scanner inputScanner = new Scanner(System.in); // creates a new scanner to get input from the user
 
         int amountOfWordsInInput = getWordsInText(inputScanner.nextLine()); // gets the amount of words in the text from the user input
 
-        System.out.println("There is " + amountOfWordsInInput + " words in the sentence.");
+        System.out.println("There is " + amountOfWordsInInput + " words in the sentence."); // tells the user the amount of words in the sentence typed in
     }
 }
